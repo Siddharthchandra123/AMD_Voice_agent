@@ -1,0 +1,15 @@
+hardware:
+  gpu: AMD Instinct MI300X
+  architecture: gfx942
+runtime:
+  accelerator: ROCm
+llm:
+  provider: vLLM
+  precision: bfloat16
+voice:
+  transport: WebSocket
+  realtime_streaming: true
+rag:
+  vector_db: Qdrant
+observability:
+  metrics: Prometheus

@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+jupyter-env/
+
+# Jupyter
+.ipynb_checkpoints/
+jpy.ipynb
+
+# Node.js / React
+node_modules/
+dist/
+.vite/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.prv
+*credentials*
+*secret*
+*token*
+
+# AI models
+*.safetensors
+*.gguf
+*.onnx
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.model
+
+# Generated data
+*.log
+*.bak
+*.step*.bak
+mi300x_agent_test_report.json
+untitled.txt
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
